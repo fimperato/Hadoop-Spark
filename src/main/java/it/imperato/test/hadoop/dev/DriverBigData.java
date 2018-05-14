@@ -1,7 +1,6 @@
 package it.imperato.test.hadoop.dev;
 
 import it.imperato.test.spark.dev.SparkProgram;
-import org.apache.avro.generic.GenericRecord;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
@@ -14,8 +13,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.parquet.avro.AvroParquetReader;
-import org.apache.parquet.io.InputFile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -96,8 +93,8 @@ public class DriverBigData extends Configured implements Tool {
             args = new String[3];
             // Args di default:
             String numberOfReducers = "1";
-            String inputPath = "C:/temp/hadoop/data/test_input.txt";
-            String outputDir = "C:/temp/hadoop/data/test_output.txt";
+            String inputPath = "C:/temp/hadoop/data/test/test_input.txt";
+            String outputDir = "C:/temp/hadoop/data/test/test_output.txt";
             args[0] = numberOfReducers;
             args[1] = inputPath;
             args[2] = outputDir;
