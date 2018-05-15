@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +14,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SparkJava$ReadWriteHdfsMain.ic" NAME="ReadWriteHdfsMain Coverage Results" MODIFIED="1526332742935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.imperato.test.hadoop.hdfs.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCount1Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCount1Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="-102">
+              <caret line="18" selection-start-line="17" selection-start-column="4" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +43,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongSumReducer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/lib/reduce/LongSumReducer.class">
+      <file leaf-file-name="HdfsWriterMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="94" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="94" />
+            <state relative-caret-position="268">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HdfsReaderMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +125,9 @@
       <find>categoricalFeaturesInfo</find>
       <find>avs</find>
       <find>job</find>
+      <find>hdfsuri</find>
+      <find>FS_PARAM_NAME</find>
+      <find>FSDataOutputStrea</find>
     </findStrings>
     <replaceStrings>
       <replace>2.3.0</replace>
@@ -136,6 +155,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/ReadWriteHdfs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/ReadWriteHdfsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" />
       </list>
     </option>
   </component>
@@ -152,6 +175,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +248,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="wordcount1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,8 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,14 +302,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCount1Main">
-    <configuration name="DriverBigData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.imperato.test.hadoop.dev.DriverBigData" />
+  <component name="RunManager" selected="Application.HdfsWriterMain">
+    <configuration name="HdfsReaderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.imperato.test.hadoop.hdfs.HdfsReaderMain" />
       <module name="SparkJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.imperato.test.hadoop.dev.*" />
+          <option name="PATTERN" value="it.imperato.test.hadoop.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HdfsWriterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.imperato.test.hadoop.hdfs.HdfsWriterMain" />
+      <module name="SparkJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.imperato.test.hadoop.hdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,13 +336,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.SparkProgram" />
+    <configuration name="ReadWriteHdfsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.imperato.test.hadoop.hdfs.ReadWriteHdfsMain" />
       <module name="SparkJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="it.imperato.test.hadoop.dev.*" />
+          <option name="PATTERN" value="it.imperato.test.hadoop.hdfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,17 +454,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.SparkProgram" />
-      <item itemvalue="Application.DriverBigData" />
       <item itemvalue="Application.JavaRandomForestClassificationExample" />
       <item itemvalue="Application.WordCount1Main" />
+      <item itemvalue="Application.ReadWriteHdfsMain" />
+      <item itemvalue="Application.HdfsWriterMain" />
+      <item itemvalue="Application.HdfsReaderMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HdfsWriterMain" />
+        <item itemvalue="Application.HdfsReaderMain" />
+        <item itemvalue="Application.ReadWriteHdfsMain" />
         <item itemvalue="Application.WordCount1Main" />
         <item itemvalue="Application.JavaRandomForestClassificationExample" />
-        <item itemvalue="Application.DriverBigData" />
-        <item itemvalue="Application.SparkProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -439,34 +485,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29081634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29081634" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32552692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32552692" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5289116" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24980484" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -517,7 +565,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -530,27 +578,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12325">
-          <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/SparkProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -864,17 +891,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="18" selection-start-line="17" selection-start-column="4" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/lib/reduce/LongSumReducer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="224">
           <caret line="22" column="94" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="98">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
