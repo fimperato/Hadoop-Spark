@@ -6,6 +6,7 @@ import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.util.Tool;
 
 import java.io.*;
+import java.net.URI;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -35,10 +36,11 @@ public class HdfsWriterMain extends Configured implements Tool {
 
         if (args.length < 2) {
             log.warn("local input and hdfs output default used ([local input path] [hdfs output path])");
-            args = new String[3];
+            args = new String[4];
             args[0] = "data\\hdfs\\rw_test\\rw_test.txt";
-            args[1] = "C:\\hadoop-2.7.6\\data\\datanode\\rw_test_output.txt";
-            args[2] = "C:\\hadoop-2.7.6\\data\\datanode\\rw_test_output_2.txt";
+            args[1] = "/input/my_test_data/rw_test_output_01.txt";
+            args[2] = "/input/my_test_data/rw_test_output_02.txt";
+            args[3] = "/input/my_test_data/hdfs_dest_file_out.txt"; // hdfs dest file
             //return 1;
         }
 
@@ -50,7 +52,7 @@ public class HdfsWriterMain extends Configured implements Tool {
         log.info("configured filesystem = " + conf.get(FS_PARAM_NAME));
         FileSystem fs = FileSystem.get(conf);
         if (fs.exists(outputPath)) {
-            log.error("output path exists");
+            log.error("output path already exists!");
             return 1;
         }
 
@@ -71,10 +73,33 @@ public class HdfsWriterMain extends Configured implements Tool {
         while ((numBytes = in.read(b)) > 0) {
             out.write(b, 0, numBytes);
         }
+
+        //Source file in the local file system
+        String localSrc3 = args[0];
+        //Destination file in HDFS
+        String dst3 = args[3];
+
+        //Input stream for the file in local file system to be written to HDFS
+        InputStream in3 = new BufferedInputStream(new FileInputStream(localSrc3));
+
+        //Get configuration of Hadoop system
+        Configuration conf3 = new Configuration();
+        log.info("Connecting to -- "+conf.get("fs.defaultFS"));
+
+        //Destination file in HDFS
+        FileSystem fs3 = FileSystem.get(URI.create(dst3), conf);
+        OutputStream out3 = fs.create(new Path(dst3));
+
+        //Copy file from local to HDFS
+        IOUtils.copyBytes(in, out, 4096, true);
+        log.info(dst3 + " copied to HDFS");
+
         // Close all the file descripters
         in.close();
         out.close();
         fs.close();
+        fs3.close();
+        out3.close();
 
         return 0;
     }

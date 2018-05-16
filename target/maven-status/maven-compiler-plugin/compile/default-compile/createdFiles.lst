@@ -1,0 +1,16 @@
+it\imperato\test\hadoop\wordcount2\WordCount2Main$TokenizerMapper.class
+it\imperato\test\hadoop\wordcount1\WordCount1Main.class
+org\apache\hadoop\io\nativeio\testing\NativeIO.class
+it\imperato\test\hadoop\dev\MapperBigData.class
+it\imperato\test\hadoop\hdfs\HdfsWriterMain.class
+it\imperato\test\hadoop\wordcount1\WordCount1Mapper.class
+it\imperato\test\spark\dev\JavaRandomForestClassificationExample$1.class
+it\imperato\test\hadoop\wordcount1\WordCount1Reduce.class
+it\imperato\test\hadoop\wordcount2\WordCount2Main$IntSumReducer.class
+it\imperato\test\spark\dev\JavaRandomForestClassificationExample$2.class
+it\imperato\test\hadoop\hdfs\HdfsReaderMain.class
+it\imperato\test\spark\dev\JavaRandomForestClassificationExample.class
+it\imperato\test\hadoop\wordcount2\WordCount2Main.class
+it\imperato\test\spark\dev\SparkProgram.class
+it\imperato\test\hadoop\dev\DriverBigData.class
+it\imperato\test\hadoop\dev\ReducerBigData.class

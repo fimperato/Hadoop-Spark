@@ -11,7 +11,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
--->
+--> 
 <configuration>
 
 	<!-- Site specific YARN configuration properties -->
@@ -20,8 +20,16 @@
     	<value>mapreduce_shuffle</value>
    </property>
    <property>
+	<name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+	<value>org.apache.hadoop.mapred.ShuffleHandler</value>
+   </property>
+   <property>
       	<name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>  
 		<value>org.apache.hadoop.mapred.ShuffleHandler</value>
+   </property>
+   <property>
+	  <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+	  <value>98.5</value>
    </property>
 
 </configuration>
