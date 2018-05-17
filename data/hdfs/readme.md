@@ -16,6 +16,7 @@ hdfs dfs <arguments>
 This syntax works for all operations against HDFS in it is the recommend command to use instead of hadoop fs or hadoop dfs. 
 Indeed, if you use the hadoop dfs syntax, it will locate hdfs and delegate the command to hdfs dfs.
 
+
 ## creazione cartella hdsf
 c:\hadoop-2.7.6\bin>hdfs dfs -mkdir /input
 hdfs dfs -mkdir /output
@@ -47,7 +48,9 @@ http://localhost:50070/explorer.html#/input/my_test_data
 - execute etc\hadoop\hadoop-env.cmd
 - run sbin\start-dfs.cmd
 - run sbin\start-yarn.cmd
-- let's start job, with jar file
+- let's start job, with jar file, i.e.:
+  [HADOOP_HOME]/bin>hdfs dfs -rm -r /output/my_test_data
+  [HADOOP_HOME]/bin>hadoop jar C:\wsIdea\Spark_2018\SparkJava\target\spark-java.jar /input/my_test_data /output/my_test_data
 
 ## check result job, and folder output:
 http://localhost:8088/cluster
