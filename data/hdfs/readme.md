@@ -46,13 +46,50 @@ http://localhost:50070/explorer.html#/input/my_test_data
 ### To avoid: CreateSymbolicLink error (1314): A required privilege is not held by the client
 - run Command Prompt in admin mode
 - execute etc\hadoop\hadoop-env.cmd
-- run sbin\start-dfs.cmd
-- run sbin\start-yarn.cmd
-- let's start job, with jar file, i.e.:
-  [HADOOP_HOME]/bin>hdfs dfs -rm -r /output/my_test_data
-  [HADOOP_HOME]/bin>hadoop jar C:\wsIdea\Spark_2018\SparkJava\target\spark-java.jar /input/my_test_data /output/my_test_data
+- run %HADOOP_HOME%\sbin\start-dfs.cmd
+- run %HADOOP_HOME%\sbin\start-yarn.cmd
+- inizia il job, tramite jar file, i.e.:
+  > hdfs dfs -rm -r /output/my_test_data
+  > hadoop jar C:\wsIdea\Spark_2018\SparkJava\target\spark-java.jar /input/my_test_data /output/my_test_data
 
 ## check result job, and folder output:
 http://localhost:8088/cluster
 
 http://localhost:50070/explorer.html
+
+## check free space hdfs
+hdfs dfs -df
+
+## local dir, log dir 
+hdfs dfs -mkdir /tmp/hadoop-Francesco/nm-local-dir
+hdfs dfs -mkdir /dep/logs/userlogs
+
+### check filesystem directory:
+hdfs fsck /tmp/hadoop-Francesco/nm-local-dir
+hdfs fsck /dep/logs/userlogs
+
+#### note for 'local-dirs are bad' error:
+ - Inserire questa property in "yarn-site.xml". Questo dovrebbe risolvere l'errore:
+
+<property>
+  <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
+  <value>98.5</value>
+</property>
+
+La più comune causa di 'local-dirs are bad' è data dall'available disk space del nodo, 
+che eccede il valore dello yarn max-disk-utilization-per-disk-percentage di default, pari al 90.0%.
+
+ - Se viene settato il path del local dir, custom, ad es. con: 
+ > file:\\\C:\hadoop\tmp\hdp\nm-local-dir\usercache\Francesco\appcache
+ 
+ Allora settare anche il path dei file temporanei per i mapreduce job:
+ > file:\\\C:\hadoop\tmp\hdp\nm-local-dir\usercache\Francesco\appcache
+ 
+ 
+## test 2
+> hdfs dfs -mkdir /input_dir
+> hadoop fs -put C:/data/input_file.txt /input_dir
+> hdfs dfs -ls /input_dir/
+> hdfs dfs -cat /input_dir/input_file.txt
+> hdfs dfs -rm -r /output_dir
+> hadoop jar C:/wsIdea/Spark_2018/SparkJava/eseguibili/MapReduceClient.jar wordcount /input_dir /output_dir
