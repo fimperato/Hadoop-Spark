@@ -32,7 +32,7 @@ hadoop fs -copyFromLocal C:/temp/prova.txt  /input/my_test_data/prova180515.txt
 
 hdfs dfs -ls /input/my_test_data
 
-### altro:
+### spostamento file con put:
 hadoop fs -put C:/temp/prova.txt  /input/my_test_data/prova180515.txt
 
 ## copia da hdfs a locale su progetto
@@ -48,9 +48,7 @@ http://localhost:50070/explorer.html#/input/my_test_data
 - execute etc\hadoop\hadoop-env.cmd
 - run %HADOOP_HOME%\sbin\start-dfs.cmd
 - run %HADOOP_HOME%\sbin\start-yarn.cmd
-- inizia il job, tramite jar file, i.e.:
-  > hdfs dfs -rm -r /output/my_test_data
-  > hadoop jar C:\wsIdea\Spark_2018\SparkJava\target\spark-java.jar /input/my_test_data /output/my_test_data
+- lancio di eventuale job, tramite jar file
 
 ## check result job, and folder output:
 http://localhost:8088/cluster
@@ -85,11 +83,17 @@ che eccede il valore dello yarn max-disk-utilization-per-disk-percentage di defa
  Allora settare anche il path dei file temporanei per i mapreduce job:
  > file:\\\C:\hadoop\tmp\hdp\nm-local-dir\usercache\Francesco\appcache
  
- 
-## test 2
-> hdfs dfs -mkdir /input_dir
-> hadoop fs -put C:/data/input_file.txt /input_dir
-> hdfs dfs -ls /input_dir/
-> hdfs dfs -cat /input_dir/input_file.txt
-> hdfs dfs -rm -r /output_dir
-> hadoop jar C:/wsIdea/Spark_2018/SparkJava/eseguibili/MapReduceClient.jar wordcount /input_dir /output_dir
+
+### check dir folder permission per una data folder:
+> hdfs dfs -mkdir /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+> hdfs dfs -ls /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+> hdfs dfs -chown Francesco /tmp/hdp/nm-local-dir/usercache/Francesco/appcache 
+> hdfs dfs -chmod 2750 /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+
+### set permission sulla hadoop browser view per una data folder:
+> hdfs dfs -chown -R dr.who /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+> hdfs dfs -chmod -R u+rX /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+
+### set permission per tutti gli user per una data folder:
+> hdfs dfs -chmod -R 777 /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+> hdfs dfs -chmod -R 777 /tmp/hadoop-Francesco/nm-local-dir/usercache/Francesco/appcache
