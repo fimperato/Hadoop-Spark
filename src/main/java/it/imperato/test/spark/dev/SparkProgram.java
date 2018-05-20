@@ -1,15 +1,13 @@
 package it.imperato.test.spark.dev;
 
+import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import sun.net.www.content.image.gif;
 
 public class SparkProgram {
 
-    private static final Logger log = LoggerFactory.getLogger(SparkProgram.class);
+    private static final Logger log = Logger.getLogger(SparkProgram.class);
 
     public static void main(String args[]) {
 

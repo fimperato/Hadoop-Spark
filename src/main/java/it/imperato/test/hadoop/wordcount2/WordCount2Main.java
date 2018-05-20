@@ -12,6 +12,8 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -20,8 +22,12 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  *
  * [HADOOP_HOME]/bin>hadoop jar C:\wsIdea\Spark_2018\SparkJava\target\spark-java.jar /input/my_test_data /output/my_test_data
  *
+ * WordCount2Main data\hdfs\rw_test\wordcount1\input data\hdfs\rw_test\wordcount1\output
+ *
  */
 public class WordCount2Main {
+
+    static Logger log = Logger.getLogger(WordCount2Main.class);
 
     //Mapper which implement the mapper() function
     public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
@@ -53,6 +59,10 @@ public class WordCount2Main {
     }
     //Driver class to specific the Mapper and Reducer
     public static void main(String[] args) throws Exception {
+        BasicConfigurator.configure();
+        log.info("Leggo i dati di input da: "+(args!=null&&args[0]!=null?args[0]:"N.D."));
+        log.info("Produzione dei dati di output su: "+(args!=null&&args[1]!=null?args[1]:"N.D."));
+
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "word count");
         job.setJarByClass(WordCount2Main.class);
@@ -64,6 +74,6 @@ public class WordCount2Main {
         job.setMapOutputValueClass(IntWritable.class);
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        log.info(job.waitForCompletion(true) ? 0 : 1);
     }
 }

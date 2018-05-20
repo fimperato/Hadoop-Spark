@@ -1,5 +1,6 @@
 package it.imperato.test.spark.dev;
 
+import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
@@ -10,15 +11,13 @@ import org.apache.spark.mllib.regression.LabeledPoint;
 import org.apache.spark.mllib.tree.RandomForest;
 import org.apache.spark.mllib.tree.model.RandomForestModel;
 import org.apache.spark.mllib.util.MLUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import scala.Tuple2;
 
 import java.util.HashMap;
 
 public class JavaRandomForestClassificationExample {
 
-    private static final Logger log = LoggerFactory.getLogger(JavaRandomForestClassificationExample.class);
+    private static final Logger log = Logger.getLogger(JavaRandomForestClassificationExample.class);
 
     public static void main(String[] args) {
 

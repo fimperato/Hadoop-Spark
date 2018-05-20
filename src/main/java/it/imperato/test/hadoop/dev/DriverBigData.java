@@ -13,8 +13,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 
 /**
  * Programma MapReduce
@@ -23,7 +22,7 @@ import org.slf4j.LoggerFactory;
  */
 public class DriverBigData extends Configured implements Tool {
 
-    private static final Logger log = LoggerFactory.getLogger(SparkProgram.class);
+    private static final Logger log = Logger.getLogger(SparkProgram.class);
 
     @Override
     public int run(String[] args) throws Exception {
