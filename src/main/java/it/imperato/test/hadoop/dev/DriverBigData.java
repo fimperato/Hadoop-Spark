@@ -1,6 +1,6 @@
 package it.imperato.test.hadoop.dev;
 
-import it.imperato.test.spark.dev.SparkProgram;
+import it.imperato.test.spark.dev.simple.SparkProgram;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;

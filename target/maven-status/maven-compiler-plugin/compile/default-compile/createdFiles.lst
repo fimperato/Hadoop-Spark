@@ -11,6 +11,5 @@ it\imperato\test\spark\dev\JavaRandomForestClassificationExample$2.class
 it\imperato\test\hadoop\hdfs\HdfsReaderMain.class
 it\imperato\test\spark\dev\JavaRandomForestClassificationExample.class
 it\imperato\test\hadoop\wordcount2\WordCount2Main.class
-it\imperato\test\spark\dev\SparkProgram.class
 it\imperato\test\hadoop\dev\DriverBigData.class
 it\imperato\test\hadoop\dev\ReducerBigData.class

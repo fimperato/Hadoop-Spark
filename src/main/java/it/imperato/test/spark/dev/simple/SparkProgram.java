@@ -1,4 +1,4 @@
-package it.imperato.test.spark.dev;
+package it.imperato.test.spark.dev.simple;
 
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
@@ -21,12 +21,12 @@ public class SparkProgram {
                 .setMaster(sparkMaster);
 
         // Creo Spark Context con relativa configurazione:
-        JavaSparkContext sc = new JavaSparkContext(conf);
+        JavaSparkContext sparkContext = new JavaSparkContext(conf);
 
         // Creo un RDD (Resilient Distributed Dataset) per il file in input:
         // ogni linea del file in input sarà un record RDD
 
-        JavaRDD<String> lines = sc.textFile(
+        JavaRDD<String> lines = sparkContext.textFile(
                 "data/worldcupplayerinfo_20140701.tsv");
 
         // Estrazione info base: count delle linee presenti
@@ -37,7 +37,7 @@ public class SparkProgram {
         JavaRDD<Integer> caratteriPerLinea = lines.map(s -> s.length());
 
         // Operazione di: Reduce
-        // Calcolo dei totali dei caratteri, su tutte le righe */
+        // Calcolo dei totali dei caratteri, su tutte le righe
         int totaleCaratteri = caratteriPerLinea.reduce((a, b) -> a + b);
 
         log.info("###### Totale dei caratteri nel file: " + totaleCaratteri);
@@ -52,7 +52,7 @@ public class SparkProgram {
         log.info("###### Totale giocatori per il ruolo 'Forward' dal file: "
                 + lines.filter(oneLine -> oneLine.contains("Forward")).count());
 
-        sc.close();
+        sparkContext.close();
     }
 
 }
