@@ -1,24 +1,19 @@
 package it.imperato.test.spark.dev.simple;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.*;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.PairFunction;
-import org.apache.spark.api.java.function.VoidFunction;
 import scala.Tuple2;
 
-import java.io.*;
+import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  *
@@ -43,11 +38,6 @@ public class NumberTransformation {
     private static final String HDSF_URI = "hdfs://0.0.0.0:19000";
 
     public static void main(String[] args) {
-
-//        String master = args[0];
-//        String fileName = args[1];
-//        JavaSparkContext sc = new JavaSparkContext(
-//                master, "basicloadsequencefile", System.getenv("SPARK_HOME"), System.getenv("JARS"));
 
         SparkConf sparkConf = new SparkConf();
 
