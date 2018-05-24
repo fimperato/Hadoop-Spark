@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class AnalysisWithDataJoin {
 
-    private static final Logger log = Logger.getLogger(HdfsReaderMain.class);
+    private static final Logger log = Logger.getLogger(AnalysisWithDataJoin.class);
 
     public static void main(String [] args)
     {

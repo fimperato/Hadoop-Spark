@@ -1,5 +1,5 @@
-SquadraId,Nome,Campionato
-1,Real Madrid,Liga Espanola
-2,Chelsea,Premier League
-3,Juventus,Campionato Italiano
-4,Inter,Campionato Italiano
+SquadraId,Nome,Campionato,EtaMedia
+1,Real Madrid,Liga Espanola,26
+2,Chelsea,Premier League,24
+3,Juventus,Campionato Italiano,29
+4,Inter,Campionato Italiano,28
