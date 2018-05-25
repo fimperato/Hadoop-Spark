@@ -1,6 +1,7 @@
 package it.imperato.test.spark.dev.dataanalysis;
 
 import it.imperato.test.hadoop.hdfs.HdfsReaderMain;
+import it.imperato.test.utils.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -21,8 +22,8 @@ public class SparkAnalysis01 {
         if(args==null || args.length<6) {
             inputPath1 = "data/spark/testdata/acquisti.csv";
             inputPath2 = "data/spark/testdata/team.csv";
-            outputPath1 = "data/spark/testoutput/analysis01_1.txt";
-            // outputPath2 = "data/spark/testoutput/analysis01_2.txt";
+            outputPath1 = "data/spark/testoutput/analysis01_1";
+            // outputPath2 = "data/spark/testoutput/analysis01_2";
             etaThr = 25;
             prezzoThr = new Double(30.5);
         }
@@ -35,6 +36,8 @@ public class SparkAnalysis01 {
             etaThr = Integer.valueOf(args[4]);
             prezzoThr = Double.parseDouble(args[5]);
         }
+
+        FileUtils.deleteDirectoryWithFiles(outputPath1);
 
         final Double prezzoThreshold = prezzoThr;
         String sparkMaster = "local[1]";
@@ -77,6 +80,13 @@ public class SparkAnalysis01 {
         });
 
         etaMediaMaggioreTeamRDD.saveAsTextFile(outputPath1);
+
+        JavaRDD<String> loaded = sparkContext.textFile(outputPath1);
+        // Collect RDD per la stampa risultati
+        log.info("###### Verifica risultato RDD salvato ...");
+        for(String line : loaded.collect()){
+            log.info("###### Read RDD line: " + line);
+        }
 
         sparkContext.close();
     }
