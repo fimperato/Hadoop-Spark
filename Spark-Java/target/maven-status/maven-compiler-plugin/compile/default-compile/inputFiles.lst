@@ -1,0 +1,17 @@
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\org\apache\hadoop\io\nativeio\testing\NativeIO.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\hdfs\HdfsWriterMain.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\wordcount2\WordCount2Main.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\spark\dev\simple\SparkTransformation.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\dev\MapperBigData.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\wordcount1\WordCount1Reduce.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\wordcount1\WordCount1Main.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\spark\dev\simple\SparkProgram.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\dev\ReducerBigData.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\utils\HadoopUtils.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\hdfs\Tuple.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\hdfs\HdfsReaderMain.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\dev\DriverBigData.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\wordcount1\WordCount1Mapper.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\hadoop\hdfs\HdfsReaderReduceResultMain.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\spark\dev\simple\NumberTransformation.java
+C:\wsIdea\Spark_2018\Spark-Java\src\main\java\it\imperato\test\spark\dev\JavaRandomForestClassificationExample.java
