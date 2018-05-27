@@ -2,104 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SparkJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/.read_reduce_dir_resultByHdfs.txt.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/prova180515.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/prova180519.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/rw_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/rw_test_readbyhdfs_out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/rw_test_readbylocal_out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/wordcount1/input/prova_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/wordcount1/output/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/wordcount1/output/.part-r-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/wordcount1/output/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/rw_test/wordcount1/output/part-r-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/wordcount-exe-test-readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/hdfs/wordcount_2-exe-test-readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/mllib/sample_multiclass_classification_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testdata/acquisti.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testdata/team.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testoutput/analysis01_1/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testoutput/analysis01_1/.part-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testoutput/analysis01_1/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/spark/testoutput/analysis01_1/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/test/test_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/worldcupplayerinfo_20140701.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/Set up and run hadoop [Windows].docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/hdfs_flow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-pyspark/setup-apache-spark-pyspark.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spark_setup_files/Install_Spark_on_Windows10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/JavaRandomForestClassificationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/simple/SparkProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/it/imperato/test/utils/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcountLog4j.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/TipoAcquistiConteggio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spark/testdata/acquisti.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testdata/acquisti.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spark/testdata/team.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testdata/team.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,8 +41,8 @@
       <file leaf-file-name="team.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/spark/testdata/team.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,8 +50,8 @@
       <file leaf-file-name="acquisti.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/spark/testdata/acquisti.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="2" selection-start-column="20" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -150,7 +59,7 @@
       <file leaf-file-name="AnalysisWithDataJoin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="276">
               <caret line="30" column="34" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,8 +71,8 @@
       <file leaf-file-name="SparkAnalysis01.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="83">
+              <caret line="119" column="64" lean-forward="true" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,17 +91,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>my_test_data</find>
       <find>listFilesFromLocalPath</find>
-      <find>web ui</find>
+      <find />
       <find>textFile</find>
       <find>textFile(</find>
       <find>aven.compiler.sou</find>
-      <find>Verifica risultato mappin</find>
+      <find />
       <find>4040</find>
       <find>%HADOOP_HOME%\sbin\start-yarn.cmd</find>
-      <find>hdfs uri</find>
-      <find>ecord found in hd</find>
+      <find />
+      <find />
       <find>FSData</find>
       <find>IOUtils</find>
       <find>call</find>
@@ -212,6 +120,7 @@
       <find>sparkcontext</find>
       <find>outputPath1</find>
       <find>RDD.saveAs</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>2.3.0</replace>
@@ -257,15 +166,16 @@
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java" />
-        <option value="$PROJECT_DIR$/data/spark/testdata/acquisti.csv" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" />
-        <option value="$PROJECT_DIR$/data/spark/testdata/team.csv" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/TipoAcquistiConteggio.java" />
+        <option value="$PROJECT_DIR$/data/spark/testdata/acquisti.csv" />
+        <option value="$PROJECT_DIR$/data/spark/testdata/team.csv" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="441" />
     <option name="y" value="6" />
     <option name="width" value="1401" />
@@ -289,6 +199,11 @@
               <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop_setup_files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -304,8 +219,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wsIdea\Spark_2018\Spark-2\Spark-Java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.imperato.test.spark.dev.dataanalysis" />
+      <recent name="it.imperato.test.hadoop.wordcount1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="it.imperato.test.spark" />
@@ -320,8 +236,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="it.imperato.test.hadoop.hdfs" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="it.imperato.test.hadoop.wordcount1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wsIdea\Spark_2018\Spark-2\Spark-Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -591,18 +507,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.457483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23497267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37585035" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43537414" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,6 +527,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1904762" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43537414" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -673,30 +619,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java</url>
-          <line>63</line>
+          <line>136</line>
           <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -707,36 +635,25 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>line</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapConteggioAcquistiGiovani.collect()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>split[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/nativeio/NativeIOException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.6/hadoop-common-2.7.6.jar!/org/apache/hadoop/io/nativeio/NativeIO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/nativeio/NativeIO.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1004,13 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/spark/testdata/acquisti.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1042,16 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1069,24 +969,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/spark/testdata/team.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/TipoAcquistiConteggio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar!/org/apache/spark/scheduler/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/function/Function2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar!/org/apache/spark/api/java/AbstractJavaRDDLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="75" column="39" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/spark/testdata/team.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/spark/testdata/acquisti.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="2" selection-start-column="20" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="83">
+          <caret line="119" column="64" lean-forward="true" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

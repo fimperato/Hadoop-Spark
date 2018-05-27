@@ -1,5 +1,5 @@
-AcquistoId,SquadraId,Player,Prezzo
-1,4,Stefan de Vrij,35
-2,2,Alvaro Morata,66
-3,2,Olivier Giroud,17
-4,3,Douglas Costa,40
+AcquistoId,SquadraId,Player,Prezzo,EtaPlayer
+acq1,s4,Stefan de Vrij,35,24
+acq2,s2,Alvaro Morata,66,23
+acq3,s2,Olivier Giroud,17,29
+acq4,s3,Douglas Costa,40,26
