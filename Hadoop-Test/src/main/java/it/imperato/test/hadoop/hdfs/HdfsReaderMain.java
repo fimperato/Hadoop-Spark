@@ -27,7 +27,7 @@ import org.apache.log4j.PropertyConfigurator;
  * http://localhost:50070
  * hdfs uri = hdfs://0.0.0.0:19000
  *
- * hdfs dfs -getmerge  /output/my_test_data/ C:/wsIdea/Spark_2018/Spark-Java/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt
+ * hdfs dfs -getmerge  /output/my_test_data/ C:/wsIdea/Spark_2018/Hadoop-Test/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt
  *
  */
 public class HdfsReaderMain extends Configured implements Tool {

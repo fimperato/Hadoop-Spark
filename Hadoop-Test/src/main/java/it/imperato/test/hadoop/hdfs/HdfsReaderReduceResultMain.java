@@ -34,7 +34,7 @@ import java.util.List;
  * hdfs uri = hdfs://0.0.0.0:19000
  *
  * Con command line:
- * hdfs dfs -getmerge -nl /output/my_test_data/ C:/wsIdea/Spark_2018/Spark-Java/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt
+ * hdfs dfs -getmerge -nl /output/my_test_data/ C:/wsIdea/Spark_2018/Hadoop-Test/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt
  *
  * other:
  * hdfs dfs -copyFromLocal Desktop/someLocalFolderFiles /user/someFolder

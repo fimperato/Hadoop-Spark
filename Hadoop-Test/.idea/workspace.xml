@@ -2,140 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/Hadoop-Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/.read_reduce_dir_resultByHdfs.txt.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/prova180515.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/prova180519.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/rw_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/rw_test_readbyhdfs_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/rw_test_readbylocal_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/wordcount1/input/prova_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/wordcount1/output/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/wordcount1/output/.part-r-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/wordcount1/output/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/rw_test/wordcount1/output/part-r-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/wordcount-exe-test-readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/hdfs/wordcount_2-exe-test-readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/data/test/test_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/Set up and run hadoop [Windows].docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hadoop_eco_system.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hdfs_flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/mapreduce_workflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/src/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/wordcountLog4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/._SUCCESS.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/spark/testoutput/analysis01_1/.part-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/Set up and run hadoop [Windows].docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/Set up and run hadoop [Windows].docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/hadoop_eco_system.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hadoop_eco_system.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/hdfs_flow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hdfs_flow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/mapreduce_workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/mapreduce_workflow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_setup_files/Install_Spark_on_Windows10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/spark_setup_files/Install_Spark_on_Windows10.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hadoop-Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/.read_reduce_dir_resultByHdfs.txt.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/prova180515.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/prova180519.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/read_reduce_dir_resultByHdfs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/rw_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/rw_test_readbyhdfs_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/rw_test_readbylocal_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/wordcount1/input/prova_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/wordcount1/output/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/wordcount1/output/.part-r-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/wordcount1/output/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hdfs/rw_test/wordcount1/output/part-r-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/test_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop_setup_files/hdfs/wordcount-exe-test-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hadoop_setup_files/hdfs/wordcount_2-exe-test-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information/essentials.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/testing/NativeIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordcountLog4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/data/spark/testoutput/analysis01_1/._SUCCESS.crc" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/data/spark/testoutput/analysis01_1/._SUCCESS.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/data/spark/testoutput/analysis01_1/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/data/spark/testoutput/analysis01_1/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/Set up and run hadoop [Windows].docx" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/Set up and run hadoop [Windows].docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/hadoop_eco_system.png" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/hadoop_eco_system.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/hdfs_flow.png" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/hdfs_flow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/mapreduce_workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/mapreduce_workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/core-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/hadoop-env.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/hdfs-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/mapred-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.7.6/yarn-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/container-executor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hadoop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/hdfs_static.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/libwinutils.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/mapred.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/rcc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/test-container-executor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/winutils.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/bin/yarn.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/core-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hadoop-env.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/hdfs-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/mapred-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/setup_windows_files_2.8.0/etc/hadoop/yarn-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/spark_setup_files/Install_Spark_on_Windows10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/spark_setup_files/Install_Spark_on_Windows10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/MapperBigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/ReducerBigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,38 +104,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SparkTransformation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="69" column="45" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnalysisWithDataJoin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkAnalysis01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="119" column="64" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="essentials.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information/essentials.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="469">
+                <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -200,16 +127,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>listFilesFromLocalPath</find>
       <find />
       <find>textFile</find>
       <find>textFile(</find>
       <find>aven.compiler.sou</find>
-      <find />
       <find>4040</find>
       <find>%HADOOP_HOME%\sbin\start-yarn.cmd</find>
-      <find />
-      <find />
       <find>FSData</find>
       <find>IOUtils</find>
       <find>call</find>
@@ -229,13 +152,21 @@
       <find>sparkcontext</find>
       <find>outputPath1</find>
       <find>RDD.saveAs</find>
-      <find />
+      <find>SparkJava</find>
+      <find>Spark-Java</find>
+      <find>worldcupplayerinfo_20140701</find>
+      <find>spark</find>
+      <find>read</find>
     </findStrings>
     <replaceStrings>
       <replace>2.3.0</replace>
       <replace>log.info</replace>
       <replace>/</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\wsIdea\Spark_2018\Hadoop-Spark\Hadoop-Test\data</dir>
+      <dir>C:\wsIdea\Spark_2018\Hadoop-Spark\Hadoop-Test</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -256,14 +187,9 @@
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/ReadWriteHdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/ReadWriteHdfsMain.java" />
         <option value="$PROJECT_DIR$/data/hdfs/rw_test/prova180519.txt" />
-        <option value="$PROJECT_DIR$/data/hdfs/readme.md" />
-        <option value="$PROJECT_DIR$/data/hdfs/wordcount_2-exe-test-readme.md" />
-        <option value="$PROJECT_DIR$/data/hdfs/wordcount-exe-test-readme.md" />
         <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" />
@@ -271,9 +197,7 @@
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/SparkProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkProgram.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java" />
@@ -281,6 +205,14 @@
         <option value="$PROJECT_DIR$/data/spark/testdata/acquisti.csv" />
         <option value="$PROJECT_DIR$/data/spark/testdata/team.csv" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" />
+        <option value="$PROJECT_DIR$/data/hdfs/wordcount-exe-test-readme.md" />
+        <option value="$PROJECT_DIR$/data/hdfs/readme.md" />
+        <option value="$PROJECT_DIR$/data/hdfs/wordcount_2-exe-test-readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/information/essentials.md" />
       </list>
     </option>
   </component>
@@ -302,43 +234,43 @@
         <subPane>
           <expand>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="eseguibili" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Spark-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spark-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop-Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop-Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -353,7 +285,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hadoop-Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -364,7 +296,7 @@
       <recent name="it.imperato.test.spark" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wsIdea\Spark_2018\Hadoop-Spark" />
+      <recent name="C:\wsIdea\Spark_2018\Hadoop-Spark\Hadoop-Test\hadoop_setup_files" />
       <recent name="C:\wsIdea\Spark_2018\Spark-Java\data\spark\testdata" />
       <recent name="C:\wsIdea\Spark_2018\Spark-Java" />
       <recent name="C:\wsIdea\Spark_2018\Spark-Java\src\main\java" />
@@ -393,7 +325,7 @@
   <component name="RunManager" selected="Application.SparkAnalysis01">
     <configuration name="AnalysisWithDataJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.join.AnalysisWithDataJoin" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -404,7 +336,7 @@
     </configuration>
     <configuration name="NumberTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.simple.NumberTransformation" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -415,7 +347,7 @@
     </configuration>
     <configuration name="SparkAnalysis01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.dataanalysis.SparkAnalysis01" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -426,7 +358,7 @@
     </configuration>
     <configuration name="SparkProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.simple.SparkProgram" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -437,7 +369,7 @@
     </configuration>
     <configuration name="SparkTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.simple.SparkTransformation" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -448,7 +380,7 @@
     </configuration>
     <configuration name="WCount2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.hadoop.wordcount2.WordCount2Main" />
-      <module name="Spark-Java" />
+      <module name="Hadoop-Test" />
       <option name="PROGRAM_PARAMETERS" value="data\hdfs\rw_test\wordcount1\input data\hdfs\rw_test\wordcount1\output" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -634,6 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -647,8 +580,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23497267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -662,37 +596,36 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1904762" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43537414" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43537414" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -791,30 +724,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="119" column="64" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="323" column="43" selection-start-line="323" selection-start-column="40" selection-end-line="323" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="457" column="71" selection-start-line="456" selection-start-column="25" selection-end-line="457" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -840,6 +749,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="62" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,16 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/hdfs/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="388">
-            <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -892,23 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hdfs/wordcount-exe-test-readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="281">
-            <caret line="23" selection-start-line="23" selection-end-line="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -996,33 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/JavaRandomForestClassificationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hdfs/wordcount_2-exe-test-readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/JavaRandomForestClassificationExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1034,20 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="57" column="69" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" selection-start-line="34" selection-start-column="4" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -1065,13 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkProgram.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar!/org/apache/spark/util/Utils$.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1079,26 +918,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="81" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/SparkTransformation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/simple/NumberTransformation.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkConf.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -1106,13 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/TipoAcquistiConteggio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/TipoAcquistiConteggio.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1141,37 +956,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/spark/testdata/team.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/data/spark/testdata/team.csv" />
+    <entry file="file://$PROJECT_DIR$/data/spark/testdata/acquisti.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" />
+    <entry file="file://$PROJECT_DIR$/python-pyspark/setup-apache-spark-pyspark.py" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java" />
+    <entry file="file://$PROJECT_DIR$/data/hdfs/wordcount-exe-test-readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/spark/testdata/acquisti.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="2" selection-start-column="20" selection-end-line="3" selection-end-column="25" />
+    <entry file="file://$PROJECT_DIR$/data/hdfs/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="388">
+            <caret line="38" column="82" selection-end-line="99" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/data/hdfs/wordcount_2-exe-test-readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/dataanalysis/SparkAnalysis01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount2/WordCount2Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="119" column="64" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="80" selection-start-line="36" selection-start-column="80" selection-end-line="36" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop_setup_files/hdfs/rw_test/wordcount1/input/prova_input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/essentials.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="469">
+            <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

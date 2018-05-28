@@ -20,7 +20,7 @@ import org.apache.log4j.Logger;
  * Cancellare l'output dir prima di fare partire il job:
  * hdfs dfs -rm -r /output/my_test_data
  *
- * [HADOOP_HOME]/bin>hadoop jar C:\wsIdea\Spark_2018\Spark-Java\target\spark-java.jar /input/my_test_data /output/my_test_data
+ * [HADOOP_HOME]/bin>hadoop jar C:\wsIdea\Spark_2018\Hadoop-Test\target\hadoop-test-java.jar /input/my_test_data /output/my_test_data
  *
  * WordCount2Main data\hdfs\rw_test\wordcount1\input data\hdfs\rw_test\wordcount1\output
  *
