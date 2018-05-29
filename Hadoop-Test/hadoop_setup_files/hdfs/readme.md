@@ -32,7 +32,7 @@ hadoop fs -copyFromLocal C:/temp/prova.txt  /input/my_test_data/prova180515.txt
 
 hdfs dfs -ls /input/my_test_data
 
-### spostamento file con put:
+#### spostamento file con put (utility), da local file system ad HDFS:
 hadoop fs -put C:/temp/prova.txt  /input/my_test_data/prova180515.txt
 
 ## copia da hdfs a locale su progetto
@@ -43,7 +43,7 @@ http://localhost:50070/explorer.html#/input/my_test_data
 
 [Administrator] winutils.exe chmod -R 777 C:\hadoop-2.7.6\logs
 
-### To avoid: CreateSymbolicLink error (1314): A required privilege is not held by the client
+#### To avoid: CreateSymbolicLink error (1314): A required privilege is not held by the client
 - run Command Prompt in admin mode
 - execute etc\hadoop\hadoop-env.cmd
 - run %HADOOP_HOME%\sbin\start-dfs.cmd
@@ -55,18 +55,27 @@ http://localhost:8088/cluster
 
 http://localhost:50070/explorer.html
 
-## check free space hdfs
-hdfs dfs -df
+## check free space hdfs: 
+Sintesi sullo spazio dell'intero file system HDFS
+    
+    hdfs dfs -df
 
 ## local dir, log dir 
-hdfs dfs -mkdir /tmp/hadoop-Francesco/nm-local-dir
-hdfs dfs -mkdir /dep/logs/userlogs
 
-### check filesystem directory:
-hdfs fsck /tmp/hadoop-Francesco/nm-local-dir
-hdfs fsck /dep/logs/userlogs
+    hdfs dfs -mkdir /tmp/hadoop-Francesco/nm-local-dir
+    hdfs dfs -mkdir /dep/logs/userlogs
 
-#### note for 'local-dirs are bad' error:
+## create dir con folder interne:
+Per evitare errori su creazioni di nested folder quando non esistono ancora, usare l'opzione -p
+
+    hdfs dfs -mkdir -p /deep/tmp/folder
+
+#### check filesystem directory:
+
+    hdfs fsck /tmp/hadoop-Francesco/nm-local-dir
+    hdfs fsck /dep/logs/userlogs
+
+##### note for 'local-dirs are bad' error:
  - Inserire questa property in "yarn-site.xml". Questo dovrebbe risolvere l'errore:
 
 <property>
@@ -84,16 +93,25 @@ che eccede il valore dello yarn max-disk-utilization-per-disk-percentage di defa
  > file:\\\C:\hadoop\tmp\hdp\nm-local-dir\usercache\Francesco\appcache
  
 
-### check dir folder permission per una data folder:
+#### check dir folder permission per una data folder:
 > hdfs dfs -mkdir /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
 > hdfs dfs -ls /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
 > hdfs dfs -chown Francesco /tmp/hdp/nm-local-dir/usercache/Francesco/appcache 
 > hdfs dfs -chmod 2750 /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
 
-### set permission sulla hadoop browser view per una data folder:
+#### set ownership, ricorsivamente, sulla hadoop browser view user (dr.who) per una data folder:
 > hdfs dfs -chown -R dr.who /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
-> hdfs dfs -chmod -R u+rX /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+#### set permission, ricorsivamente, sulla hadoop browser view user (dr.who) per una data folder:
+> hdfs dfs -chmod -R 744 /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
+> "hdfs dfs -chmod 774" / oppure: > "hdfs dfs -chmod 747 /" per permettere la cancellazione di cartelle da browser view 
 
-### set permission per tutti gli user per una data folder:
+
+#### set permission per tutti gli user per una data folder (ricorsivamente -R su tutti i file interni):
 > hdfs dfs -chmod -R 777 /tmp/hdp/nm-local-dir/usercache/Francesco/appcache
 > hdfs dfs -chmod -R 777 /tmp/hadoop-Francesco/nm-local-dir/usercache/Francesco/appcache
+
+#### check spazio consumato per tutte le repliche del file:
+> hdfs dfs -du -h /output
+
+#### verifica del contenuto per un file remoto su HDFS:
+> hdfs dfs -cat /testo-prova.txt
