@@ -1,3 +1,11 @@
+## Hadoop federation 
+Permette di scaling il name service orizzontalmente. 
+Usa diversi namenode or namespace che sono independenti l'uno dall'altro. 
+Questi namenode indipendenti sono federati i.e. non richiedono una coordinazione tra di loro. 
+Hadoop federation è scalabile orizzontalmente (architettura scale-out): 
+non è necessaria la coordinazione tra i namenode, quindi non è necessario fornire macchine host performanti. 
+
+
 ## The hadoop fs command line:
 
 hadoop fs <arguments>

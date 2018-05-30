@@ -1,6 +1,5 @@
 package it.imperato.test.spark.dev.dataanalysis;
 
-import it.imperato.test.hadoop.hdfs.HdfsReaderMain;
 import it.imperato.test.utils.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;

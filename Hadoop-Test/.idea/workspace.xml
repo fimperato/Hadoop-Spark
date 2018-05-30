@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" line="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/information/essentials_02_permessi-linux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information/essentials_03_curl.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,31 +33,43 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="3111">
-                <caret line="183" column="25" lean-forward="true" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+                <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="404">
-                <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+              <first_editor relative-caret-position="17">
+                <caret line="5" column="106" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="106" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="essentials_02_permessi-linux.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information/essentials_02_permessi-linux.md">
+      <file leaf-file-name="DriverBigData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="essentials_03_curl.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information/essentials_03_curl.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="9">
-                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>textFile(</find>
       <find>aven.compiler.sou</find>
       <find>4040</find>
       <find>%HADOOP_HOME%\sbin\start-yarn.cmd</find>
@@ -99,6 +116,7 @@
       <find>read</find>
       <find>-rm</find>
       <find>###</find>
+      <find>SparkProgram</find>
     </findStrings>
     <replaceStrings>
       <replace>2.3.0</replace>
@@ -134,7 +152,6 @@
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/Tuple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsWriterMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/JavaRandomForestClassificationExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java" />
@@ -157,11 +174,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/information/essentials.md" />
         <option value="$PROJECT_DIR$/information/essentials_02_permessi-linux.md" />
+        <option value="$PROJECT_DIR$/information/essentials_03_curl.md" />
         <option value="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="441" />
     <option name="y" value="6" />
     <option name="width" value="1401" />
@@ -174,7 +193,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,18 +247,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark-Java" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="it.imperato.test.spark.dev.dataanalysis" />
-      <recent name="it.imperato.test.hadoop.wordcount1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wsIdea\Spark_2018\Spark-2\Spark-Java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="it.imperato.test.spark" />
@@ -255,8 +273,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="it.imperato.test.hadoop.hdfs" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wsIdea\Spark_2018\Spark-2\Spark-Java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.imperato.test.spark.dev.dataanalysis" />
+      <recent name="it.imperato.test.hadoop.wordcount1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkAnalysis01">
+  <component name="RunManager" selected="Gauge Execution.Specifications">
     <configuration name="AnalysisWithDataJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.join.AnalysisWithDataJoin" />
       <module name="Hadoop-Test" />
@@ -301,17 +320,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="it.imperato.test.spark.dev.dataanalysis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.imperato.test.spark.dev.simple.SparkProgram" />
-      <module name="Hadoop-Test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.imperato.test.spark.dev.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,6 +419,18 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
     </configuration>
+    <configuration name="Specifications" type="executeSpecs" factoryName="Gauge Execution" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="C:\wsIdea\Spark_2018\Hadoop-Spark\Hadoop-Test\specs" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="Hadoop-Test" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,19 +504,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.WCount2" />
-      <item itemvalue="Application.SparkProgram" />
       <item itemvalue="Application.SparkTransformation" />
       <item itemvalue="Application.NumberTransformation" />
       <item itemvalue="Application.AnalysisWithDataJoin" />
       <item itemvalue="Application.SparkAnalysis01" />
+      <item itemvalue="Gauge Execution.Specifications" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gauge Execution.Specifications" />
         <item itemvalue="Application.SparkAnalysis01" />
         <item itemvalue="Application.AnalysisWithDataJoin" />
         <item itemvalue="Application.NumberTransformation" />
         <item itemvalue="Application.SparkTransformation" />
-        <item itemvalue="Application.SparkProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -514,24 +534,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33843538" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35034013" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23497267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -541,41 +561,11 @@
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43537414" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33843538" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -788,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/utils/HadoopUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -927,14 +910,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/jets3t/jets3t/0.9.4/jets3t-0.9.4.jar!/images/nuvola/readme.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/information/essentials.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3111">
-            <caret line="183" column="25" lean-forward="true" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+            <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
@@ -943,8 +923,18 @@
     <entry file="file://$PROJECT_DIR$/information/essentials_02_permessi-linux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <first_editor relative-caret-position="357">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/essentials_03_curl.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -953,10 +943,20 @@
     <entry file="file://$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="404">
-            <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+          <first_editor relative-caret-position="17">
+            <caret line="5" column="106" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="106" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
