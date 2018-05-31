@@ -1,12 +1,4 @@
-## Hadoop federation 
-Permette di scaling il name service orizzontalmente. 
-Usa diversi namenode or namespace che sono independenti l'uno dall'altro. 
-Questi namenode indipendenti sono federati i.e. non richiedono una coordinazione tra di loro. 
-Hadoop federation è scalabile orizzontalmente (architettura scale-out): 
-non è necessaria la coordinazione tra i namenode, quindi non è necessario fornire macchine host performanti. 
-
-
-## The hadoop fs command line:
+## The Hadoop FS command line:
 
 hadoop fs <arguments>
 
@@ -123,3 +115,34 @@ che eccede il valore dello yarn max-disk-utilization-per-disk-percentage di defa
 
 #### verifica del contenuto per un file remoto su HDFS:
 > hdfs dfs -cat /testo-prova.txt
+
+##### NOTE / KEY WORD:
+* Commodity hardware: hardware accessibile/a costo non elevato, senza particolari richieste di performance. 
+In Hadoop utilizzato per lavoro in parallelo. Legato allo scaling orizzontale, invece che ad uno scaling verticale.
+
+* Operazioni di modifica su file system distribuito (GFS, HDFS): semplifica l'implementazione del DFS, 
+e viene incontro al pattern di uso dei dati 'write once, read many'.
+
+* Split dei file in blocchi tra i server in un DFS: permette la distruzione dei dati uniforme sui server DFS.
+
+* Contenuto dei namenode metadata: locazione dei blocchi di file, data di creazione del file, permessi.
+
+* Per un client HDFS è necessario sia possibile l'accesso a tutti i server per la lettura dei files.
+
+* La protezione, implementata in HDFS, di file di importanza maggiore, può avvenire incrementando il fattore 
+di replica per questo file e restringendo i permessi sul file.
+
+* Il restore avviene prima sul server relativo al Namenode e successivamente sui server dei Datanode.
+
+* In HDFS la grandezza dei blocchi dopende dalla RAM del Namenode, dal rapporto tra il tempo di seek 
+e il tempo di lettura per il blocco, e non dipende invece dalla grandezza blocchi per datanode filesystem locale.
+
+##### Hadoop federation 
+
+Permette di scalare orizzontalmente (architettura scale-out) il service name con Namenode aggiuntivi. 
+Usa diversi namenode or namespace che sono independenti l'uno dall'altro, non è necessaria la coordinazione tra i namenode.
+ * Questi namenode indipendenti sono federati i.e. non richiedono una coordinazione tra di loro.
+ * Previene la possibilità di crash di sistema nel caso di fault su singolo Namenode: il fault 
+ su singolo Namenode non impedisce ai Datanode di servire gli altri Namenode dell'intero cluster. 
+ * Permette la caratteristica di isolamento, ad es. nel caso in cui gruppi diversi di utenti accedono 
+al FS potrebbero usare separati, e isolati tra loro, Namenode.

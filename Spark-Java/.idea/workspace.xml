@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hadoop-Test/information/essentials_03_curl.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hadoop-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hdfs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/hadoop_setup_files/hdfs/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hadoop-Test/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/imperato/test/spark/dev/join/AnalysisWithDataJoin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -509,22 +504,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32993197" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
