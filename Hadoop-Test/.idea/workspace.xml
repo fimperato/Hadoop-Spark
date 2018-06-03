@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f809ad3f-2b32-4703-89bb-92598b93bd96" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spark-Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information/essentials.md" beforeDir="false" afterPath="$PROJECT_DIR$/information/essentials.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,45 +21,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="essentials.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="essentials.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/information/essentials.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3111">
-                <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+              <first_editor relative-caret-position="17">
+                <caret line="165" column="54" selection-start-line="165" selection-start-column="54" selection-end-line="165" selection-end-column="54" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="essentials_02_permessi-linux.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information/essentials_02_permessi-linux.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="25" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverBigData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" selection-start-line="2" selection-start-column="41" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="essentials_03_curl.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information/essentials_03_curl.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="544">
+                <caret line="32" column="12" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,10 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aven.compiler.sou</find>
-      <find>4040</find>
-      <find>%HADOOP_HOME%\sbin\start-yarn.cmd</find>
-      <find>FSData</find>
       <find>IOUtils</find>
       <find>call</find>
       <find>hdfs:\</find>
@@ -108,6 +94,10 @@
       <find>-rm</find>
       <find>###</find>
       <find>SparkProgram</find>
+      <find>mkdir</find>
+      <find>ls</find>
+      <find>-ls</find>
+      <find>cat</find>
     </findStrings>
     <replaceStrings>
       <replace>2.3.0</replace>
@@ -163,12 +153,12 @@
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/hdfs/HdfsReaderReduceResultMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/information/essentials.md" />
         <option value="$PROJECT_DIR$/information/essentials_02_permessi-linux.md" />
         <option value="$PROJECT_DIR$/information/essentials_03_curl.md" />
         <option value="$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/dev/DriverBigData.java" />
         <option value="$PROJECT_DIR$/hadoop_setup_files/hdfs/readme.md" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/information/essentials.md" />
       </list>
     </option>
   </component>
@@ -184,8 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,12 +239,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spark-Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MS_2018/REST-Microservices/MsElqResourceServer" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -546,14 +536,14 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50117093" side_tool="true" visible="true" weight="0.35034013" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.3452381" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38605443" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49882904" visible="true" weight="0.35034013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49726775" visible="true" weight="0.3452381" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26151446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18735363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980484" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -564,11 +554,11 @@
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32943013" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -667,13 +657,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.6/hadoop-mapreduce-client-core-2.7.6.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/imperato/test/hadoop/wordcount1/WordCount1Reduce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -914,26 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information/essentials.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3111">
-            <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information/essentials_02_permessi-linux.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information/essentials_03_curl.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -951,11 +914,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop_setup_files/hdfs/wordcount_2-exe-test-readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+          <first_editor relative-caret-position="544">
+            <caret line="32" column="12" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/essentials_02_permessi-linux.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="25" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/essentials.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="165" column="54" selection-start-line="165" selection-start-column="54" selection-end-line="165" selection-end-column="54" />
           </first_editor>
           <second_editor />
         </state>

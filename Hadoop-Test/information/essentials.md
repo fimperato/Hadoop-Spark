@@ -162,6 +162,9 @@ E' possibile ad esempio sostituire i caratteri ":" con il carattere "#"
     cat vimtest.txt | tr -d ':'
 Con l'opzione "-d" elimino e non sostituisco le occorrenze trovate
 
+    hdfs dfs -cat /fimperato/assignment1/test.txt | head -10
+Lettura delle prime dieci righe da hdfs con cat e head
+
     sort vimtest.txt
 Ordina le linee del vimtest.txt
 
